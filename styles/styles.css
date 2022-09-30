@@ -1,8 +1,21 @@
+/* game */
+.hide {
+    visibility: hidden;
+}
+
 /* general */
 body {
     color: #EAF6F6;
     text-align: center !important;
     font-family: 'Saira', sans-serif;
+}
+
+#title {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.subtitle {
+    font-family: 'Rajdhani', sans-serif;
 }
 
 .body-container {
@@ -15,7 +28,7 @@ body {
 }
 
 .link:hover {
-    color: #E94560;
+    color: #E94560 !important;
     font-weight: bold;
 }
 
@@ -26,12 +39,12 @@ body {
     padding-bottom: 25px;
 }
 
-.title {
-    font-family: 'Orbitron', sans-serif;
+#title-div {
+    margin: auto;
 }
-
-.subtitle {
-    font-family: 'Rajdhani', sans-serif;
+/* aliens */
+.ufo-with-alien-img {
+    width: 60%;
 }
 
 .ufo-right {
@@ -56,10 +69,6 @@ body {
 
 .ufo-right-bot-div {
     text-align: left;
-}
-
-.ufo-with-alien-img {
-    width: 65%;
 }
 
 /* mid-container */

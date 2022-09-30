@@ -15,7 +15,7 @@
 	<!-- icons -->
 	<script src="https://kit.fontawesome.com/aca167ccde.js" crossorigin="anonymous"></script>
     </head>
-    <body>
+    <body onload="startCanvas();">
 	<!-- navbar -->
 	<nav class="navbar navbar-expand-lg fixed-top">
 	    <div class="container-fluid">
@@ -41,37 +41,42 @@
 		</div>
 	    </div>
 	</nav>
-	<!-- body -->
 	<!-- top-container -->
 	<div id="top-container">
 	    <div class="row">
-		<div class="col-6">
+		<div class="col-6 ufo-div">
 		    <img src="images/ufo.png" alt="ufo" class="ufo-top-img"> 
 		</div>
-		<div class="col-6">
+		<div class="col-6 ufo-div">
 		    <img src="images/ufo.png" alt="ufo" class="ufo-top-img ufo-right"> 
 		</div>
 	    </div>
 	    <div class="row">
-		<div class="col-3">
+		<div class="col-3 ufo-div">
 		    <img src="images/ufo.png" alt="ufo" class="ufo-mid-img"> 
 		</div>
-		<div class="col-6 ufo-with-alien-div">
+		<div class="col-6 ufo-with-alien-div ufo-div">
 		    <img src="images/ufo-with-alien.png" alt="ufo" class="ufo-with-alien-img"> 
 		</div>
-		<div class="col-3">
+		<div class="col-3 ufo-div">
 		    <img src="images/ufo.png" alt="ufo" class="ufo-right ufo-mid-img"> 
 		</div>
 	    </div>
+
+	    <!-- game -->
+	    <canvas id="game" width="0" height="0"></canvas>
+
 	    <div class="row">
-		<div class="col-4 ufo-left-bot-div">
+		<div class="col-4 ufo-left-bot-div ufo-div">
 		    <img src="images/ufo.png" alt="ufo" class="ufo-bot-img"> 
 		</div>
-		<div class="col-4">
-		    <h1 class="title">EMILIO CHIU</h1>
-		    <h2 class="subtitle"><u>a programmer</u></h2>
+		<div id="title-div" class="col-4">
+		    <h1 id="title">EMILIO-CHIU</h1>
+		    <button id="playButton" type="button" class="btn btn-link link">
+			<h2 class="text">a programmer</h2>
+		    </button>
 		</div>
-		<div class="col-4 ufo-right-bot-div">
+		<div class="col-4 ufo-right-bot-div ufo-div">
 		    <img src="images/ufo.png" alt="ufo" class="ufo-right ufo-bot-img"> 
 		</div>
 	    </div>
@@ -185,5 +190,7 @@
 	</div>
 	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+	<!-- game-script -->
+	<script src="game.js"></script>
     </body>
 </html>
