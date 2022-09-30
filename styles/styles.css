@@ -1,0 +1,127 @@
+/* general */
+body {
+    color: #EAF6F6;
+    text-align: center !important;
+    font-family: 'Saira', sans-serif;
+}
+
+.body-container {
+    padding: 40px 0;
+    margin: 0;
+}
+
+.link{
+    color: #EAF6F6 ;
+}
+
+.link:hover {
+    color: #E94560;
+    font-weight: bold;
+}
+
+/* top-container */
+#top-container {
+    background-color: #1A1A2C;
+    padding-right: 12px;
+    padding-bottom: 25px;
+}
+
+.title {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.subtitle {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.ufo-right {
+    transform: scaleX(-1);
+}
+
+.ufo-top-img {
+    width: 15%;
+}
+
+.ufo-mid-img {
+    width: 20%;
+}
+
+.ufo-bot-img {
+    width: 23%;
+}
+
+.ufo-left-bot-div {
+    text-align: right;
+}
+
+.ufo-right-bot-div {
+    text-align: left;
+}
+
+.ufo-with-alien-img {
+    width: 65%;
+}
+
+/* mid-container */
+
+#mid-container {
+    background-color: #16213E;
+}
+
+.astronaut {
+    width: 40%;
+    padding-top: 25px;
+    padding-bottom: 35px;
+}
+
+.skill-div {
+    text-align: left ;
+}
+
+.about-me {
+    margin: auto;
+    width: 40%;
+    padding-bottom: 30px;
+}
+
+.skill-row {
+    padding: 25px 0;
+    margin: auto;
+    width: 50%;
+}
+
+.skill-img {
+    width: 93%;
+}
+
+/* bot-container */
+
+#bot-container {
+    background-color: #0F3460;
+}
+
+/* carousel */
+
+#carousel {
+    margin: auto;
+    width: 50%;    
+    padding: 20px 0;
+}
+
+.carousel-img {
+    height: 300px;
+}
+
+/* contact-me */
+
+#contact-me {
+    background-color: #1A1A2E;
+}
+
+.icons {
+    padding: 7px 10px;
+}
+
+#brand {
+    padding: 10px 0;
+}
