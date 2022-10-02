@@ -250,7 +250,7 @@ var titleDiv = document.querySelector("#title-div");
 var playButton = document.querySelector("#playButton");
 playButton.addEventListener("click", function () {
   document.querySelector("#top-container h1").innerHTML =
-    "use 'a' and 'd' or '←' and '→' to move and 'q' to shoot";
+    "Use 'a' and 'd' or '←' and '→' to move and 'q' to shoot";
   for (var i = 0; i < divsToremove.length; i++) {
     divsToremove[i].remove();
   }
